@@ -21,7 +21,7 @@ for i in data:
 
 # creating socket server object, bind, and listen
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server_socket.bind(('localhost', 50000))
+server_socket.bind(('localhost', 500000))
 server_socket.listen(5)
 
 # list to store accepted client
